@@ -68,13 +68,14 @@ img{
   display:flex;
   height: 100px;
   background-color: #ec3237;
-  width: 100%;
+  /* width: 100%; */
   align-content: center;
   justify-content: space-around;
   color: beige;
-  padding: 20px;
+  padding: 14px;
   margin-bottom: 5px;
   flex-wrap: wrap;
+  box-sizing: border-box;
   }
 
 .modifying_icon{
