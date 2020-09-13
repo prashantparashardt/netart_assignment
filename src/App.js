@@ -13,11 +13,11 @@ function App () {
   return (
     <div className='page'>
       <div className='header'>
-        <img src={logo} />
+        <img src={logo} alt="" />
       </div>
       <div className='upper'>
         <div className='image1'>
-          <img src={image1} />
+          <img src={image1} alt="" />
         </div>
         <div className='image2'>
           <p style={{ fontWeight: 800}}>
@@ -37,7 +37,7 @@ function App () {
               with IoT enabled control panel.{' '}
             </li>
           </ul>
-          <img src={image2} />
+          <img src={image2} alt="" />
           <p>
             Government of India has awarded the{' '}
             <span style={{ fontWeight: 800 }}>
@@ -57,7 +57,7 @@ function App () {
         </p>
       </div>
       <div className='image3'>
-        <img src={image3} />
+        <img src={image3} alt="" />
       </div>
       <div className='footer_text1'>
         <p>
